@@ -1,0 +1,920 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass letter
+\begin_preamble
+\usepackage{listings}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="1.7cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="3" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ipn_logo.png
+	width 1.5cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+INSTITUTO POLITÉCNICO NACIONAL
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename escom_logoo.png
+	width 3cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+ESCUELA SUPERIOR DE CÓMPUTO
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+UNIDAD DE APRENDIZAJE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+TEORÍA COMPUTACIONAL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+TAREA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+PRÁCTICA 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+ALUMNO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+BARRERA ESTRELLA EMANUEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+PROFESOR
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+JUÁREZ MARTÍNEZ GENARO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+GRUPO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+2CM1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size large
+Introducción
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Un lenguaje es un conjunto de todas las cadenas de las elejidas en 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+, donde
+\begin_inset Formula $\sum$
+\end_inset
+
+es un alfabeto en particular, llamado 
+\shape italic
+lenguaje
+\shape default
+.
+ Si 
+\begin_inset Formula $\sum$
+\end_inset
+
+es un alfabeto, y 
+\begin_inset Formula $L\subseteq\sum^{*}$
+\end_inset
+
+ , entonces 
+\begin_inset Formula $L$
+\end_inset
+
+ es un lenguaje sobre 
+\begin_inset Formula $\sum$
+\end_inset
+
+.
+ Nótese que un lenguaje sobre 
+\begin_inset Formula $\sum$
+\end_inset
+
+ no necesariamente incluye todas las cadenas con todos los símbolos de 
+\begin_inset Formula $\sum$
+\end_inset
+
+, entonces una vez que hemos establecido que 
+\begin_inset Formula $L$
+\end_inset
+
+ es un lenguaje sobre 
+\begin_inset Formula $\sum$
+\end_inset
+
+, también sabremos si es un lenguaje sobre cualquier alfabeto que es superconjun
+to de 
+\begin_inset Formula $\sum$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Como sea el caso, existen muchos otros lenguajes que aparecen cuando estudiamos
+ a los autómatas.
+ Algunos son ejemplos abstractos, como son:
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+El lenguaje de todas las cadenas que consisten de n 0's seguidos por n 1's,
+ para cualquier 
+\begin_inset Formula $n\geq0$
+\end_inset
+
+ : 
+\begin_inset Formula $\{ε,01,0011,000111,\ldots\}$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+El conjunto de cadenas de 0's y 1's con un número igual de cada uno:
+\begin_inset Formula 
+\[
+\{ε,01,10,0011,0101,1001,\ldots\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+El conjunto de las cadenas binarios cuyo valor es un número primo:
+\begin_inset Formula 
+\[
+\{ε,10,11,101,111,1011,\ldots\}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+es un lenguaje para cualquier alfabeto 
+\begin_inset Formula $\sum$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+\begin_inset Formula $∅$
+\end_inset
+
+, es lenguaje vacío para cualquier alfabeto 
+\begin_inset Formula $\sum$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Enumerate
+\noindent
+\align block
+\begin_inset Formula $\left\{ ε\right\} $
+\end_inset
+
+, el lenguaje que consiste por sólo la cadena vacía, es también un lenguaje
+ sobre cualquier alfabeto.
+ Nótese que 
+\begin_inset Formula $∅\neq\left\{ ε\right\} $
+\end_inset
+
+; una no tiene cadenas y la otra tiene una cadena.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La única restricción importante en qué puede ser un lenguaje es que todos
+ los alfabetos son finitos.
+ Así, los lenguajes aunque tienen un número infinito de cadenas, estan restringi
+dos de consistir sólo por cadenas en base a un alfabeto finito.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size large
+Desarrollo
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La práctica que se presenta a continuación es de un programa que pide un
+ número entero n tal que, 
+\begin_inset Formula $0\leq$
+\end_inset
+
+ n 
+\begin_inset Formula $\leq100,000$
+\end_inset
+
+, para calcular el lenguaje del conjunto de las cadenas binarios cuyo valor
+ es un número primo hasta n.
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Implementando este programa en lenguaje C, se tiene el siguiente código:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=10,lastline=28]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Como se puede ver, este programa tiene un menú que nos permite elegir cómo
+ se genera el lenguaje 
+\begin_inset Formula $L$
+\end_inset
+
+, si de forma manual o de forma automática.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=33,lastline=39]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+De esta forma estamos generando el número de forma manual.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=43,lastline=46]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+De esta forma generamos el número de forma automática con un random().
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=48,lastline=50]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Creamos el fichero donde se escribe la salida del programa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace medskip
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El algoritmo para calcular números primos dado un límite, donde va añadiendo
+ los números primos a una lista, verifica si los números que siguen, son
+ compuestos a partir de los números primos enlistados en las posiciones
+ anteriores a este, si es un número primo, el programa añade este número
+ a la lista y así sucesivamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=51,lastline=85]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=93,lastline=131]{p2.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Como adicional, está este método casero para convertir un número decimal
+ a una cadena con el valor binario de dicho número.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La ejecución sería:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p31.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p32.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Después de generar los números primos en el fichero, procedemos a revisar
+ el archivo con la salida del programa.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p33.png
+	width 15cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En este archivo de texto, se encuentra el lenguaje.
+\end_layout
+
+\end_body
+\end_document

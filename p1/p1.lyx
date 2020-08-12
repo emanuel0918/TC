@@ -1,0 +1,979 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass letter
+\begin_preamble
+\usepackage{listings}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="1.7cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="3" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ipn_logo.png
+	width 1.5cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+INSTITUTO POLITÉCNICO NACIONAL
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename escom_logoo.png
+	width 3cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+ESCUELA SUPERIOR DE CÓMPUTO
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+UNIDAD DE APRENDIZAJE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+TEORÍA COMPUTACIONAL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+TAREA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+PRÁCTICA 1
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+ALUMNO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+BARRERA ESTRELLA EMANUEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+PROFESOR
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+JUÁREZ MARTÍNEZ GENARO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+GRUPO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+2CM1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Introducción
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Una cadena es una secuencia finita de caracteres de símbolos elegidos de
+ un alfabeto.
+ Por ejemplo, 01101 es una cadena del alfabeto binario
+\begin_inset Formula $\sum=\left\{ 0,1\right\} $
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La cadena vacía es la cadena con cero ocurrencias con los símbolos.
+ La cadena está denotada por ε y es una cadena que puede ser elegida de
+ cualquier alfabeto.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Si 
+\begin_inset Formula $\sum$
+\end_inset
+
+ es un alfabeto, podemos expresar el conjunto de todas las cadenas de cierta
+ longitud del alfabeto dado usando una notación exponenecial.
+ Definimos 
+\begin_inset Formula $\sum^{k}$
+\end_inset
+
+ como el conjunto de cadenas de longitud k, cada una de ellas con símbolos
+ dentro de 
+\begin_inset Formula $\sum$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Independientemente de que 
+\begin_inset Formula $\sum$
+\end_inset
+
+sea,
+\begin_inset Formula $\sum^{0}=\left\{ ε\right\} $
+\end_inset
+
+, ya que, ε es la única cadena cuya longitud es cero.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Entonces si 
+\begin_inset Formula $\sum=\left\{ 0,1\right\} $
+\end_inset
+
+, entonces 
+\begin_inset Formula $\sum^{1}=\left\{ 0,1\right\} $
+\end_inset
+
+, 
+\begin_inset Formula $\sum^{2}=\left\{ 00,01,10,11\right\} $
+\end_inset
+
+,
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Formula $\sum^{1}=\left\{ 000,001,010,011,100,101,110,111\right\} $
+\end_inset
+
+ y así sucesivamente.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+El conjunto de todas las cadenas sobre el alfabeto 
+\begin_inset Formula $\sum$
+\end_inset
+
+es convencionalmente denotado 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+.
+ Diciéndolo de otra forma:
+\begin_inset Formula 
+\[
+\sum{}^{*}=\sum{}^{0}\cup\sum{}^{1}\cup\sum{}^{2}\cup\ldots
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+A veces, se puede excluir la cadena vacía del resto del conjunto de las
+ cadenas.
+ El conjunto de las cadenas no vacías del alfabeto 
+\begin_inset Formula $\sum$
+\end_inset
+
+ es denotado
+\begin_inset Formula $\sum^{+}$
+\end_inset
+
+.
+ Así, dos equivalencias apropiadas serían:
+\begin_inset Formula 
+\[
+\sum{}^{+}=\sum{}^{1}\cup\sum{}^{2}\cup\sum{}^{3}\cup\ldots
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\sum{}^{*}=\sum{}^{0}\cup\sum{}^{+}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+
+\series bold
+\size large
+Desarrollo
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La práctica que se presenta a continuación es de un programa que pide un
+ número entero k tal que, 
+\begin_inset Formula $0\leq$
+\end_inset
+
+ k 
+\begin_inset Formula $\leq100$
+\end_inset
+
+, para aproximar al universo 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+, de forma que 
+\begin_inset Formula $\sum^{k}$
+\end_inset
+
+ es el sigma más grande conjunto de cadenas de longitud k unión con los
+ demás conjuntos de menor dimensión a k
+\begin_inset Formula 
+\[
+\sum{}^{+}=\sum{}^{1}\cup\sum{}^{2}\cup\sum{}^{3}\cup\ldots\sum{}^{k}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Si consideramos que k se aproxima a un número muy grande, se puede decir
+ que 
+\begin_inset Formula $\sum^{k}$
+\end_inset
+
+ = 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+ si 
+\begin_inset Formula $k\rightarrow\text{∞}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Implementando este programa en lenguaje C, se tiene el siguiente código:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=7,lastline=25]{p1.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La opción de generar el universo a partir de un número que ingrese el usuario,
+ trae consigo todo el contenido del conjunto total de los valores, cuando
+ se tiene un número específico, éste quitará su forma compleja de tener
+ que buscar el valor adecuado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=26,lastline=36 ]{p1.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En el siguiente fragmento se genera un Random que brinda un entero al azar
+ con el contenido de la longitud máxima de cadena en el universo.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=36,lastline=42 ]{p1.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En este fragmento se escribe un fichero para exportar el universo en un
+ formato adecuado, básico y muy simple para escribir en ficheros
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=43,lastline=66 ]{p1.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Finalmente, se tiene el método principal que ejecuta la conversión de cada
+ número a una cadena de 'n' bits, que se acomoda en los espacios requeridos,
+ con relleno de bits para cumplir siempre la longitud de la cadena y que
+ al hacerlo de manera automática, genera todos los números hasta 
+\begin_inset Formula $2^{n}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=121,lastline=138 ]{p1.c}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La ejecución sería:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p13.png
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Y después se genera en un archivo txt todo el conjunto de cadenas de longitud
+ 
+\begin_inset Formula $i=0,1,2,\ldots,k$
+\end_inset
+
+ donde 
+\begin_inset Formula $0\leq i\leq k$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p14.png
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para determinar un universo de manera manual, ingrresamos los valores en
+ la linea de comando:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p15.png
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Donde su salida en el archivo de texto es:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename p16.png
+	width 13cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

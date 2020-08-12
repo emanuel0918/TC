@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Histograma</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <script src='Chart.js'></script>
+        <script>
+		var y=[],x=[];
+		function graficar(){
+		/*
+		var des = document.getElementById("canvas").getContext("2d");
+		des.destroy();*/
+			n_s=document.getElementById("numeroo").value;
+			n=parseInt(n_s);
+			if(n>=0){
+				for(i=0,c=0;i<=n;i++){
+					if(i==0){
+						x[c]='1';
+						y[c]='0';
+					}
+					l=2
+					for(o=1;o<i+1;o++){
+						l*=2;
+					}
+					for(o=0;o<l;o++,c++){
+						s=unosBinario(o);
+						y[c]=s.toString();
+						x[c]=(c+1).toString();
+					}
+				}
+			flightChart();
+			}
+		}
+		var randomScalingFactor = function () {
+			return Math.round(Math.random() * 20);
+		};
+		var lineChartData = {
+			labels: x,
+			datasets: [
+				{
+					label: 'My First dataset',
+					fillColor: 'rgba(76,175,80,1)',
+					strokeColor: 'rgba(76,175,80,1)',
+					pointColor: 'rgba(76,175,80,1)',
+					pointStrokeColor: '#fff',
+					pointHighlightFill: '#fff',
+					pointHighlightStroke: 'rgba(76,175,80,1)',
+					data: y
+				}
+			]
+
+		};
+
+		function flightChart() {
+			var ctx = document.getElementById('canvas').getContext('2d');
+			window.myBar = new Chart(ctx).Bar(lineChartData, {
+				responsive: true
+			});
+		}
+		function unosBinario(n){
+			s=0;
+			while(n>0){
+				if(n%2==1){
+					s+=1;
+				}
+				n=parseInt(n/2);
+			}
+			return s;
+		}
+		/**/
+        </script>
+    </head>
+    <body>
+	Numero de elementos de sigma:
+	<input type="number" id="numeroo" /><input onclick="graficar()" value="Graficar" type="submit"/><br>
+        <div><div style='width:70%; height: 70%;'><br><canvas style='width:100%; height: 100%;' id='canvas' ></canvas></div>
+        </div>
+    </body>
+</html>
+
+

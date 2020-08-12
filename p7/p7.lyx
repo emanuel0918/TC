@@ -1,0 +1,1867 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass letter
+\begin_preamble
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+\usepackage{listings}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="1.7cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="3" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ipn_logo.png
+	width 1.5cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+INSTITUTO POLITÉCNICO NACIONAL
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename escom_logoo.png
+	width 3cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+ESCUELA SUPERIOR DE CÓMPUTO
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+UNIDAD DE APRENDIZAJE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+TEORÍA COMPUTACIONAL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+TAREA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+PRÁCTICA 7
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+ALUMNO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+BARRERA ESTRELLA EMANUEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+PROFESOR
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+JUÁREZ MARTÍNEZ GENARO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+GRUPO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+2CM1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Introducción
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En los autómatas, se tiene muchas veces el conflicto de la intersección
+ de dos o más autómatas, con este proceso se puede tener un diferente cálculo
+ de posibles estados finales cuando se tiene en cuenta el factor de la combinaci
+ón de varios eventos, como muchos otros autómatas pueden ser más complejos.
+ En la teoría computacional se pueden hacer uso de varios elementos para
+ facilitar los procesos con un comportamiento menos estable como un autómata
+ finito no determinístico.
+ En las ciencias pueden ser de utilidad en la intersección de lenguajes.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+La intersección de varios lenguajes regulares es otro lenguaje regular.
+ Se utiliza la operación de intersección de conjuntos; así, para el alfabeto
+ S ={x,y} si L1 = {x,xy,yy}, L2 = {yz,yy} y L3 = {y,yy} entonces su intersección
+ será L1 Ç L2 ÇL3 = {yy}.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para diseñar el autómata que reconoce este lenguaje, vamos a considerar
+ los autómatas finitos L(Mn).
+ El nuevo autómata estará definido por la quintupla (S', S' ,d ', i', F'),
+ donde:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+S' será el producto cartesiano de todos los conjuntos de estados originales
+ S' = S1 x S2 x S3 x...x Sn.
+ El alfabeto tiene que ser el mismo para todos los autómatas.
+ S' = S .
+ La transición desde el estado p=(p1,p2,p3,...,p n) al estado q=(q1,q2,q3,...,qn)de
+ S' (todas las transiciones posibles), para un símbolo del alfabeto, si
+ y solo si existe la transición desde pi a qi para todo i e n.
+ El estado inicial será aquel que está formado por los estados iniciales
+ originales: i' = ( i1, i2, i3,..., in).
+ Los estados de aceptación serán aquellos que están formados por estados
+ de aceptación originales.
+ F' = (F1,F2,F3,..., Fn).
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Desarrollo
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+En esta práctica se deberá de realizar una autómata que siga un tablero
+ de ajedrez, el cual, consista de un reconocimiento de estados y pueda saber
+ si ganó la pieza a lo largo del tablero, la ficha empezando desde una determina
+da casilla.
+ El usuario ingresara la cadena con los colores de movimientos que puedan
+ hacer que la pieza se mueva, en cuyo caso exitan cadenas que logren obtener
+ la casilla donde se denomine la posición de ganar, la salida del programa
+ mostrará un historial de estados en un archivo de texto.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Con base a las pautas anteriormente establecidas, se procederá a dar un
+ ligero bosquejo de cómo deberá comportarse el tablero del autómata.
+ En caso de que se pueda conseguir un buen aprovechamiento, el autómata
+ como está elaborada, podrá ser modificado y se requerirá que el usuario
+ ingrese una cadena para dos fichas diferentes de las cuales pueda mostrar
+ cómo dos autómatas funcionan simultáneamente y que la problemática principal
+ pueda complicarse mucho más con sólo una pieza más en el tablero.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Sin más preámbulo, de la siguiente forma está estructurado el tablero del
+ ajedrez, enumerando las casillas de forma que sea evidente conocer la trayector
+ia de las piezas de juego:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p718.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Con lo anterior establecido, se podrá notar que existen muchas dificultades
+ y que se trata de un autómata finito no determinístico.
+ Con la técnica de las propiedades de los autómatas no determinísticos,
+ se puede convertir este problema en algo mucho más sencillo a cuesta de
+ no perder su funcionaminento esencial.
+ Siguiendo pues, el mapeo de cada casilla alcanzable por la ficha, el objetivo
+ es que dada una cadena de un lenguaje que consta de dos elementos : (B,
+ R), se pueda formar un criterio y buscar las atlternativas de trabajar
+ con múltiples subprocesos.
+ A continuación la simbología de la aplicación.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="3" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Símbolo
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Color
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Negro
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Rojo
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Así pues, si hablamos de una cadena que pertenece a un universo sigma 𝚺
+ con todas sus cadenas contenidas en él, contienen todo un conjunto de caminos
+ para la ficha que pueda tomar.
+ Por ejemplo, dado el caso que cconozcamos la cadena BBR, nos referimos
+ a una cadena del lenguaje 𝚺 dond la ficha podrá viajar en el orden sucesivo
+ de una casilla de color Negro, seguido nuevamente de otra casilla de color
+ negro y finalmente llegando a una casilla de color rojo, no importa cuáles
+ casillas específicamente, simplemente que cumplan con esa regla.
+ A continuación se puede mejorar la e explicación con el grafo para una
+ ficha que comienza desde la casilla 1 y se mueve hasta la casilla 9.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin {tikzpicture} [shorten >= 1pt,node distance=3cm,on grid, auto] 
+\backslash
+node[state,initial](q_1){$q_1$}; 
+\backslash
+node[state](q_2)[right=of q_1]{$q_2$}; 
+\backslash
+node[state](q_3)[right=of q_2]{$q_3$}; 
+\backslash
+node[state](q_4)[below=of q_1]{$q_4$}; 
+\backslash
+node[state](q_5)[right=of q_4]{$q_5$}; 
+\backslash
+node[state](q_6)[right=of q_5]{$q_6$}; 
+\backslash
+node[state](q_7)[below=of q_4]{$q_7$}; 
+\backslash
+node[state](q_8)[right=of q_7]{$q_8$}; 
+\backslash
+node[state,accepting](q_9)[right=of q_8]{$q_9$}; 
+\backslash
+path[->] 	(q_1)edge[bend right, right] node{r} (q_2) 	(q_2)edge[bend right,
+ right] node {b} (q_1) 	(q_2)edge[bend right, right] node{b} (q_3) 	(q_3)edge[be
+nd right, right] node {r} (q_2) 	(q_4)edge[bend right, right] node{b} (q_5)
+ 	(q_5)edge[bend right, right] node {r} (q_4) 	(q_5)edge[bend right, right]
+ node{r} (q_6) 	(q_6)edge[bend right, right] node {b} (q_5) 	(q_1)edge[bend
+ right, right] node{r} (q_4) 	(q_4)edge[bend right, right] node {b} (q_1)
+ 	(q_2)edge[bend right, right] node{b} (q_5) 	(q_5)edge[bend right, right]
+ node {r} (q_2) 	(q_3)edge[bend right, right] node{r} (q_6) 	(q_6)edge[bend
+ right, right] node {b} (q_3) 	(q_4)edge[bend right, right] node{b} (q_7)
+ 	(q_7)edge[bend right, right] node {r} (q_4) 	(q_5)edge[bend right, right]
+ node{r} (q_8) 	(q_8)edge[bend right, right] node {b} (q_5) 	(q_6)edge[bend
+ right, right] node{b} (q_9) 	(q_9)edge[bend right, right] node {r} (q_6)
+ 	(q_7)edge[bend right, right] node{r} (q_8) 	(q_8)edge[bend right, right]
+ node {b} (q_7) 	(q_8)edge[bend right, right] node{b} (q_9) 	(q_9)edge[bend
+ right, right] node {r} (q_8) 	(q_1)edge[bend right, right] node{b} (q_5)
+ 	(q_5)edge[bend right, right] node {b} (q_1) 	(q_3)edge[bend right, right]
+ node{b} (q_5) 	(q_5)edge[bend right, right] node {b} (q_3) 	(q_7)edge[bend
+ right, right] node{b} (q_5) 	(q_5)edge[bend right, right] node {b} (q_7)
+ 	(q_9)edge[bend right, right] node{b} (q_5) 	(q_5)edge[bend right, right]
+ node {b} (q_9) 	(q_2)edge[bend right, right] node{r} (q_4) 	(q_4)edge[bend
+ right, right] node {r} (q_2) 	(q_8)edge[bend right, right] node{r} (q_4)
+ 	(q_4)edge[bend right, right] node {r} (q_8) 	(q_8)edge[bend right, right]
+ node{r} (q_6) 	(q_6)edge[bend right, right] node {r} (q_8) 	(q_2)edge[bend
+ right, right] node{r} (q_6) 	(q_6)edge[bend right, right] node {r} (q_2);
+ 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+→ q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q4}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q3,q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q5,q7}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q4,q6,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q3,q7,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q3,q5,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5,q7,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q6,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+De lo anterior, podemos idear múltiples de rutas que la ficha pueda recorrer
+ sin importar cuántas veces pase por ellas, en este caso podemos observar
+ como nuevamente se fija la ruta que sea de una casilla que inicie desde
+ la posición 2 hasta la posición 8.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin {tikzpicture} [shorten >= 1pt,node distance=3cm,on grid, auto] 
+\backslash
+node[state](q_1){$q_1$}; 
+\backslash
+node[state,initial](q_2)[right=of q_1]{$q_2$}; 
+\backslash
+node[state](q_3)[right=of q_2]{$q_3$}; 
+\backslash
+node[state](q_4)[below=of q_1]{$q_4$}; 
+\backslash
+node[state](q_5)[right=of q_4]{$q_5$}; 
+\backslash
+node[state](q_6)[right=of q_5]{$q_6$}; 
+\backslash
+node[state](q_7)[below=of q_4]{$q_7$}; 
+\backslash
+node[state,accepting](q_8)[right=of q_7]{$q_8$}; 
+\backslash
+node[state](q_9)[right=of q_8]{$q_9$}; 
+\backslash
+path[->] 	(q_1)edge[bend right, right] node{r} (q_2) 	(q_2)edge[bend right,
+ right] node {b} (q_1) 	(q_2)edge[bend right, right] node{b} (q_3) 	(q_3)edge[be
+nd right, right] node {r} (q_2) 	(q_4)edge[bend right, right] node{b} (q_5)
+ 	(q_5)edge[bend right, right] node {r} (q_4) 	(q_5)edge[bend right, right]
+ node{r} (q_6) 	(q_6)edge[bend right, right] node {b} (q_5) 	(q_1)edge[bend
+ right, right] node{r} (q_4) 	(q_4)edge[bend right, right] node {b} (q_1)
+ 	(q_2)edge[bend right, right] node{b} (q_5) 	(q_5)edge[bend right, right]
+ node {r} (q_2) 	(q_3)edge[bend right, right] node{r} (q_6) 	(q_6)edge[bend
+ right, right] node {b} (q_3) 	(q_4)edge[bend right, right] node{b} (q_7)
+ 	(q_7)edge[bend right, right] node {r} (q_4) 	(q_5)edge[bend right, right]
+ node{r} (q_8) 	(q_8)edge[bend right, right] node {b} (q_5) 	(q_6)edge[bend
+ right, right] node{b} (q_9) 	(q_9)edge[bend right, right] node {r} (q_6)
+ 	(q_7)edge[bend right, right] node{r} (q_8) 	(q_8)edge[bend right, right]
+ node {b} (q_7) 	(q_8)edge[bend right, right] node{b} (q_9) 	(q_9)edge[bend
+ right, right] node {r} (q_8) 	(q_1)edge[bend right, right] node{b} (q_5)
+ 	(q_5)edge[bend right, right] node {b} (q_1) 	(q_3)edge[bend right, right]
+ node{b} (q_5) 	(q_5)edge[bend right, right] node {b} (q_3) 	(q_7)edge[bend
+ right, right] node{b} (q_5) 	(q_5)edge[bend right, right] node {b} (q_7)
+ 	(q_9)edge[bend right, right] node{b} (q_5) 	(q_5)edge[bend right, right]
+ node {b} (q_9) 	(q_2)edge[bend right, right] node{r} (q_4) 	(q_4)edge[bend
+ right, right] node {r} (q_2) 	(q_8)edge[bend right, right] node{r} (q_4)
+ 	(q_4)edge[bend right, right] node {r} (q_8) 	(q_8)edge[bend right, right]
+ node{r} (q_6) 	(q_6)edge[bend right, right] node {r} (q_8) 	(q_2)edge[bend
+ right, right] node{r} (q_6) 	(q_6)edge[bend right, right] node {r} (q_2);
+ 
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="11" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+R
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+B
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+ø
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q4}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+→ q2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q3,q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q4
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q5,q7}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q4,q6,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q1,q3,q7,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q6
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q2,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q3,q5,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q7
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q8
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q4,q6}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5,q7,q9}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+q9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q6,q8}
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+{q5}
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Con esto mejor explicado, podemos proceder a la implementación del autómata,
+ para empezar se aclara que se usa el lenguaje Java versión 1.8.
+ El programa deberá reconocer los patrones que puedan tomar las cadenas
+ cuando se inserten en el autómata y éste decidirá si es una ficha ganadora
+ o no.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=Java,breaklines=true,firstline=11,lastline=22]{Automata
+7.java}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Para el reconocimiento de cadenas, es bueno que la clase tenga definidas
+ variables de instancia.
+ Lo que se presenta es una estructura de datos lo más parecida a una matriz
+ que pueda acumular cantidades mínimas de información para desplegarlas
+ cuando sea requerido.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=Java,breaklines=true,,firstline=23,lastline=46]{Automat
+a7.java}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Cuando el autómata pide la cadena, analiza caracter por caracter qué estados
+ va recorriendo y ampliar la matriz de forma que se quede el registro de
+ cuáles estados ha pasado, seguido de esto lo que queda es acumular todos
+ los estados posibles y que se guarden.
+ Después de revisar todos los caracteres, el programa hace un conjutno de
+ sólo las cadenas que son ganadoras:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=Java,breaklines=true,,firstline=228,lastline=240]{Autom
+ata7.java}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Con esto hecho, se denomina si la cadena ingresada pertence al lenguaje
+ de todas las cadenas que son ganadoras, con lo anterior, es posible que
+ se puedan recuperar todos los registros de estados gracias a la estructura
+ de datos matriz que se uso previamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=Java,breaklines=true,,firstline=241,lastline=259]{Autom
+ata7.java}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Lo único que queda es escribir la salida del programa, simplemente usamos
+ un fichero de un archivo de texto en el que escribimos el registro de todos
+ los estados por los que pasó el autómata.
+ A continuación la ejecución del programa:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p712.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Después de esto, se muestra el grafo hecho en Graphics de Java que muestra
+ el comportamiento de los autómatas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p716.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Y finalmente, hecho en Java Swing, una ligera demostración del comportamiento
+ del programa con las imágenes, dándole una buena presentación y una interfaz
+ amigable.
+ Es bueno aclarar que cada autómata puede intersectarse en el partido de
+ la llegada hasta la casilla ganadora, pero como se muestra a continuación
+ es evidente que llega a ser muy complicado:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p711.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+\begin_inset Graphics
+	filename p717.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Referencias
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+Hopcroft, John E, 1939- Introduction to automata theory, languages, and
+ computation / John E.
+ Hopcroft, Rajeev Motwani, Jeffrey D.
+ Ullman.
+ - 2nd ed.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align block
+http://aconute.es/computacion/automatasFinitos/ejemplo_intersec.html
+\end_layout
+
+\end_body
+\end_document

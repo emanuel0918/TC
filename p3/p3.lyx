@@ -1,0 +1,538 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass letter
+\begin_preamble
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning}
+\usepackage{listings}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\topmargin 2cm
+\rightmargin 3cm
+\bottommargin 5cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle empty
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\noindent
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="3">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top" width="1.7cm">
+<column alignment="center" valignment="top" width="0pt">
+<column alignment="center" valignment="top" width="0pt">
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="3" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename ipn_logo.png
+	width 1.5cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\series bold
+\size larger
+INSTITUTO POLITÉCNICO NACIONAL
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="3" alignment="center" valignment="middle" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename escom_logoo.png
+	width 3cm
+	height 2.5cm
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row topspace="0.5cm" bottomspace="0.5cm">
+<cell multirow="4" alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\size larger
+ESCUELA SUPERIOR DE CÓMPUTO
+\end_layout
+
+\end_inset
+</cell>
+<cell multirow="4" alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+\begin_inset VSpace 1.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+UNIDAD DE APRENDIZAJE
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+TEORÍA COMPUTACIONAL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\size larger
+TAREA
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\size larger
+PRÁCTICA 3
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+ALUMNO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+BARRERA ESTRELLA EMANUEL
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+PROFESOR
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+JUÁREZ MARTÍNEZ GENARO
+\end_layout
+
+\begin_layout Standard
+\begin_inset VSpace 1cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\series bold
+\size larger
+GRUPO
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\size larger
+2CM1
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Introducción
+\end_layout
+
+\begin_layout Standard
+\align block
+La teoría de autómatas es una rama de la teoría de la computación que estudia
+ las máquinas abstractas y los problemas que éstas son capaces de resolver.
+ La teoría de autómatas está estrechamente relacionada con la teoría del
+ lenguaje formal ya que los autómatas son clasificados a menudo por la clase
+ de lenguajes formales que son capaces de reconocer.
+ También son de gran utilidad en la teoría de la complejidad computacional.
+\end_layout
+
+\begin_layout Standard
+El planteamiento más formal de un autómata es:
+\end_layout
+
+\begin_layout Itemize
+Dada una cadena 
+\begin_inset Formula $w$
+\end_inset
+
+ en 
+\begin_inset Formula $\sum^{*}$
+\end_inset
+
+, decidir si w está o no en un 
+\begin_inset Formula $L$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+El autómata general es capaz de resolver este problema.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size large
+Desarrollo
+\end_layout
+
+\begin_layout Standard
+El autómata que se debe de hacer debe de reconocer si una cadena tiene cantidad
+ pares de 0's y 1's.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{tikzpicture}
+\end_layout
+
+\begin_layout Plain Layout
+
+[shorten >= 1pt,node distance=2cm,on grid, auto]
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+node[state,initial,accepting](q_0){$q_0$};
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+node[state](q_1)[above right=of q_0]{$q_1$};
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+node[state](q_2)[below right=of q_0]{$q_2$};
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+node[state](q_3)[below right=of q_1]{$q_3$};
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+path[->]
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_0)edge[bend right, right]  node{0} (q_1)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_1)edge [bend right, left] node{0} (q_0)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_2)edge[bend right, left]  node {1} (q_0)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_0)edge[bend right, right]  node {1} (q_2)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_1)edge[bend right, left] node {1} (q_3)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_2)edge [bend right, left]node {0} (q_3)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_3)edge[bend right, right] node {0} (q_1)
+\end_layout
+
+\begin_layout Plain Layout
+
+	(q_3)edge [bend right, right]node {1} (q_2);
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{tikzpicture} 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Implementando este programa en lenguaje Java, se tiene el siguiente código:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+lstinputlisting[language=C,firstline=22,lastline=25]{Practica3.java}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
