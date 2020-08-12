@@ -1,0 +1,4 @@
+P -> b
+P -> aPa
+P -> aPa
+P -> aPa

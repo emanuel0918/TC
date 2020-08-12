@@ -1,0 +1,10 @@
+B
+(RB
+((RRB
+(()RB
+(())B
+(())(RB
+(())()B
+(())()
+Esta balanceado
+

@@ -1,0 +1,30 @@
+De la union de 0+10 se ha usado 0
+Se repite 23 veces
+De la segunda union de E+1 se ha usado 1
+La cadena 1 es: 000000000000000000000001
+**********************************************
+De la union de 0+10 se ha usado 10
+Se repite 64 veces
+De la segunda union de E+1 se ha usado 1
+La cadena 2 es: 101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101010101
+**********************************************
+De la union de 0+10 se ha usado 0
+Se repite 83 veces
+De la segunda union de E+1 se ha usado E
+La cadena 3 es: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000E
+**********************************************
+De la union de 0+10 se ha usado 0
+Se repite 91 veces
+De la segunda union de E+1 se ha usado E
+La cadena 4 es: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000E
+**********************************************
+De la union de 0+10 se ha usado 0
+Se repite 59 veces
+De la segunda union de E+1 se ha usado 1
+La cadena 5 es: 000000000000000000000000000000000000000000000000000000000001
+**********************************************
+De la union de 0+10 se ha usado 0
+Se repite 73 veces
+De la segunda union de E+1 se ha usado E
+La cadena 6 es: 0000000000000000000000000000000000000000000000000000000000000000000000000E
+**********************************************
